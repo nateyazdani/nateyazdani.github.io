@@ -85,7 +85,7 @@ scholar:
 
   last_name: Yazdani
 
-  style: acm
+  style: chicago
   locale: en
 
   sort_by: year
