@@ -85,7 +85,7 @@ scholar:
 
   last_name: Yazdani
 
-  style: apa
+  style: assets/other/acm-sig-proceedings.csl
   locale: en
 
   sort_by: year
