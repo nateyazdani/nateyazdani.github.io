@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Nate</strong> Yazdani
-description: <a href="https://www.cs.washington.edu/">Paul G. Allen School of Computer Science &amp; Enginnering</a>. Seattle, USA
+description: <a href="https://www.cs.washington.edu/">Paul G. Allen School of Computer Science &amp; Engineering</a>. Seattle, USA
 
 profile:
   align: right
