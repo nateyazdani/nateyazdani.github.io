@@ -2,7 +2,10 @@
 layout: about
 permalink: /
 title: <strong>Nate</strong> Yazdani
-description: <a href="https://www.cs.washington.edu/">Paul G. Allen School of Computer Science &amp; Engineering</a>. Seattle, USA
+description: >
+  [nyazdani@cs.washington.edu](mailto:nyazdani@cs.washington.edu)
+  [@nate_yazdani](https://twitter.com/nate_yazdani)
+  [Paul G. Allen School of Computer Science &amp; Engineering](https://www.cs.washington.edu/), Seattle, USA
 
 profile:
   align: right
@@ -13,7 +16,7 @@ profile:
 #    <p>Your City, State 12345</p>
 
 news: true
-social: true
+social: false
 ---
 
 I'm a master's student in the [UW CSE](https://www.cs.washington.edu) [PLSE](http://uwplse.org) group. I'm currently working with Dan Grossman, Talia Ringer, and John Leo on new kinds of proof automation to support the evolving nature of formal verification projects in Coq.  
