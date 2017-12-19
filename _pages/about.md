@@ -16,7 +16,7 @@ news: true
 social: true
 ---
 
-I'm a master's student in the UW CSE [PLSE](http://uwplse.org) group. I'm currently
+I'm a master's student in the [UW CSE](https://www.cs.washington.edu) [PLSE](http://uwplse.org) group. I'm currently
 working with Dan Grossman, Talia Ringer, and John Leo on new kinds of proof
 automation to support the evolving nature of formal verification projects (in Coq).
 
