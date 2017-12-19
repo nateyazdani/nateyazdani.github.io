@@ -3,8 +3,8 @@ layout: about
 permalink: /
 title: <strong>Nate</strong> Yazdani
 description: |
-  [nyazdani@cs.washington.edu](mailto:nyazdani@cs.washington.edu)
-  [@nate_yazdani](https://twitter.com/nate_yazdani)
+  [nyazdani@cs.washington.edu](mailto:nyazdani@cs.washington.edu)\n
+  [@nate_yazdani](https://twitter.com/nate_yazdani)\n
   [Paul G. Allen School of Computer Science &amp; Engineering](https://www.cs.washington.edu/), Seattle, USA
 
 profile:
