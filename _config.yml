@@ -19,10 +19,7 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 github_username: nateyazdani # put your github username
 twitter_username: nate_yazdani # put your twitter username
-#linkedin_username: # put your linkedin username
 #scholar_authorid: # put your google scholar author id
-#contact_note: >
-#  I'm usually easy to reach by email.
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -85,8 +82,8 @@ scholar:
 
   last_name: Yazdani
 
-  style: chicago-fullnote-bibliography
-#  style: acm-sig-proceedings.csl
+#  style: chicago-fullnote-bibliography
+  style: acm-sig-proceedings.csl
   locale: en
 
   sort_by: year
