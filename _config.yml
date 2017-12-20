@@ -95,6 +95,8 @@ scholar:
   bibliography: papers.bib
   bibliography_template: bib
 
+  repository: /assets/doc/
+
   replace_strings: true
   join_strings: true
 
