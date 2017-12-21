@@ -5,7 +5,7 @@ title: <strong>Nate</strong> Yazdani
 description: |
   [nyazdani@cs.washington.edu](mailto:nyazdani@cs.washington.edu)\\
   [@nate_yazdani](https://twitter.com/nate_yazdani)\\
-  [Paul G. Allen School of Computer Science &amp; Engineering](https://www.cs.washington.edu/), Seattle, USA
+  [Allen School of Computer Science &amp; Engineering](https://www.cs.washington.edu/), [University of Washington](https://www.washington.edu/), Seattle, USA
 
 profile:
   align: right
