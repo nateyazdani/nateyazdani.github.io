@@ -82,8 +82,7 @@ scholar:
 
   last_name: Yazdani
 
-#  style: chicago-fullnote-bibliography
-  style: acm-sig-proceedings.csl
+  style: chicago-fullnote-bibliography
   locale: en
 
   sort_by: year
