@@ -82,7 +82,7 @@ scholar:
 
   last_name: Yazdani
 
-  style: chicago-fullnote-bibliography
+  style: apa #chicago-fullnote-bibliography
   locale: en
 
   sort_by: year
