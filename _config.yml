@@ -82,7 +82,7 @@ scholar:
 
   last_name: Yazdani
 
-  style: apa #chicago-fullnote-bibliography
+  style: acm-sig-proceedings-long-author-list #apa
   locale: en
 
   sort_by: year
