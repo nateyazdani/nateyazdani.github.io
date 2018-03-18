@@ -92,7 +92,7 @@ scholar:
   bibliography: papers.bib
   bibliography_template: '{{ reference }} [<a href="{{links.pdf}}">PDF</a>]'
 
-  repository: assets/pub/
+  repository: assets/pdf/
 
   replace_strings: true
   join_strings: true
