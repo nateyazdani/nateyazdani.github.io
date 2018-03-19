@@ -21,10 +21,7 @@
     line-height: $nav-height;
     .page-link{
         line-height: $line-height;
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 10px;
-        }
+        margin-right: 10px;
     }
     // @include media-query($on-palm) {
     //     position: fixed;
@@ -51,8 +48,9 @@
     line-height: 3em;
     z-index: 25;
     h1{
-        color: $theme-color;
+        // color: $theme-color;
         font-size: 36pt;
+        font-weight: bolder;
         margin: 0;
     }
     h2{
