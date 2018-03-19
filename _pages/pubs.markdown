@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /pubs/
 title: publications
 description: Publications in reverse chronological order.
 years: [2018, 2017]
@@ -8,5 +8,5 @@ years: [2018, 2017]
 
 {% for y in page.years %}
   <h3 class="year">{{y}}</h3>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  {% bibliography -q @*[year={{y}}]* %}
 {% endfor %}

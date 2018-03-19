@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "url:"
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-url:  # the base hostname & protocol for your site
+url: # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
@@ -24,7 +24,7 @@ twitter_username: nate_yazdani # put your twitter username
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: research
+blog_name: research blog
 blog_description: notes from my research
 
 # Pagination
@@ -34,8 +34,8 @@ paginate_path: /blog/page:num/
 
 text:
   pagination:
-    newer: 'Newer'
-    older: 'Older'
+    newer: 'newer'
+    older: 'older'
 
 # Comments
 #disqus_shortname: al-folio # put your disqus shortname
@@ -49,16 +49,11 @@ enable_katex:       true
 # Collections
 # -----------------------------------------------------------------------------
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
+- news
+- projects
 
 news_limit: 5
+post_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -73,35 +68,18 @@ include: ['_pages']
 
 # Gems
 gems:
-    - jekyll-paginate
-    - jekyll/scholar
-    - jemoji
+- jekyll-paginate
+- jekyll/scholar
+- jemoji
 
 # Jekyll-Scholar
 scholar:
-
   last_name: Yazdani
-
-  style: apa #acm-sig-proceedings
-  locale: en
-
+  style: _data/acm-toplas.csl
   sort_by: year
   order: descending
-
-  source: _bibliography/
-  bibliography: papers.bib
   bibliography_template: '{{ reference }} [<a href="{{links.pdf}}">PDF</a>]'
-
   repository: assets/pdf/
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"
 
 # -----------------------------------------------------------------------------
 # Other settings

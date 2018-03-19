@@ -1,10 +1,9 @@
 a {
-    color: $text-color;
+    color: $theme-color;
     text-decoration: none;
 
     &:hover {
         color: $theme-color;
-        text-decoration: none;
     }
 }
 

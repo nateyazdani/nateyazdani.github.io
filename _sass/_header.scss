@@ -43,7 +43,7 @@
 
 .header-bar{
     border-bottom: 1px solid $light-gray;
-    font-size: 20px;
+    font-size: 16pt;
     display: block;
     width: 100%;
     text-align: center;
@@ -52,11 +52,11 @@
     z-index: 25;
     h1{
         color: $theme-color;
-        font-size: 75px;
+        font-size: 36pt;
         margin: 0;
     }
     h2{
-        font-size:25px;
+        font-size: 16pt;
         margin: $space-1;
     }
 }
