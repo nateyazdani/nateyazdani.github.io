@@ -5,7 +5,8 @@ title: <strong>Nate</strong> Yazdani
 description: |
   [nyazdani@cs.washington.edu](mailto:nyazdani@cs.washington.edu)\\
   [@nate_yazdani](https://twitter.com/nate_yazdani)\\
-  [Allen School of Computer Science &amp; Engineering](https://www.cs.washington.edu/), [University of Washington](https://www.washington.edu/), Seattle, USA
+  [Paul G. Allen School of Computer Science &amp; Engineering](https://www.cs.washington.edu/)\\
+  [University of Washington, Seattle](https://www.washington.edu/)
 
 profile:
   align: right
@@ -17,6 +18,6 @@ posts: true
 social: false
 ---
 
-I'm a master's student in the [UW CSE](https://www.cs.washington.edu) [PLSE](http://uwplse.org) group. I'm currently working with [Dan Grossman](https://homes.cs.washington.edu/~djg/), [Talia Ringer](http://tlringer.github.io/), and [John Leo](http://halfaya.org/leo/) on new kinds of proof automation to support the evolving nature of formal verification projects in Coq.
+I'm a master's student in the [PLSE](http://uwplse.org) research group at UW CSE. I'm currently working with [Dan Grossman](https://homes.cs.washington.edu/~djg/), [Talia Ringer](http://tlringer.github.io/), and [John Leo](http://halfaya.org/leo/) on new kinds of proof automation to support the evolving nature of formal verification projects in Coq.
 
 As an undergraduate at UW CSE, I was honored to receive [research recognition from the CRA](https://news.cs.washington.edu/2016/12/13/uw-cse-undergraduates-recognized-as-outstanding-researchers-by-the-computing-research-association/) and a [Washington Research Foundation Fellowship](https://www.washington.edu/undergradresearch/students/funding/wrff/fellows/2016-17-wrf-fellows/). If you'd like to read more about my undergraduate research experience, an interview is available [here](https://news.cs.washington.edu/2017/02/10/uw-cse-undergrad-nate-yazdanis-love-of-research-plse-es-through-his-veins/).
