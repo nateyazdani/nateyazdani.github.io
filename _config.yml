@@ -77,7 +77,7 @@ scholar:
   style: _data/acm-toplas.csl
   sort_by: year
   order: descending
-  bibliography_template: '{{ reference }} [<a href="{{links.pdf}}">PDF</a>]'
+  bibliography_template: "{{ reference | replace: 'Nathaniel Yazdani', '<b>Nathaniel Yazdani</b>' }} [<a href='{{ links.pdf }}'>PDF</a>]"
   repository: assets/pdf/
 
 # -----------------------------------------------------------------------------
