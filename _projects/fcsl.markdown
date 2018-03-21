@@ -1,7 +1,7 @@
 ---
 layout: null
 title: FCSL
-description: Fine-grained concurrent separation logic
+description: Fine-grained Concurrent Separation Logic
 category: fcsl
 ---
 
