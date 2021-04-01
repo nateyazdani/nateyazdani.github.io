@@ -25,7 +25,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.
 last_updated: March 2021
 url: nyazdani.com # i.e., hostname
-baseurl: / # i.e., path relative to hostname
+baseurl: # i.e., path relative to hostname
 #theme: al-folio
 markdown: kramdown
 highlighter: rogue
@@ -58,7 +58,6 @@ post_limit: 5
 blog_name: research blog
 blog_description: notes from my research
 permalink: /blog/:year/:title.html
-paginate: nil # disable the deprecated pagination method
 pagination:
   enabled: true
   limit: 0
@@ -67,10 +66,6 @@ pagination:
   sort_reverse: true 
   title: "page :num"
   permalink: /blog/page/:num/
-text:
-  pagination:
-    newer: 'newer'
-    older: 'older'
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -90,7 +85,7 @@ scholar:
   repository: assets/pdf
   bibliography_list_tag: 'ul'
   bibliography_item_tag: 'li'
-  bibliography_template: "{{ reference | replace: 'Nathaniel Yazdani', '<b>Nathaniel Yazdani</b>' }} [<a href='{{ links.pdf }}'>PDF</a>]"
+  bibliography_template: "{{ reference | replace: 'Nathaniel Yazdani', '<b>Nathaniel Yazdani</b>' | replace: '[1]', '' | replace: '[2]', '' | replace: 'DOI:', 'DOI: ' }} [<a href='{{ links.pdf }}'>PDF</a>]"
   type_names:
     article: "journal articles"
     book: "books"
