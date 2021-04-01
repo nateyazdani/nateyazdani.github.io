@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 group :jekyll_plugins do
     gem 'jekyll'
-    gem 'jekyll-paginate'
+    gem 'jekyll-paginate-v2'
     gem 'jekyll-mentions'
     gem 'jekyll-scholar'
     gem 'jekyll-gist'
