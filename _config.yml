@@ -1,0 +1,109 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# -----------------------------------------------------------------------------
+# Site settings
+#
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+# -----------------------------------------------------------------------------
+title: Nathaniel Yazdani's academic website
+email: me@nyazdani.com #nyazdani@cs.washington.edu
+description: >
+  where research writings manifest nondeterministically for later harvest
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.
+last_updated: March 2021
+url: nyazdani.com # i.e., hostname
+baseurl: / # i.e., path relative to hostname
+#theme: al-folio
+markdown: kramdown
+highlighter: rogue
+plugins:
+- jekyll/scholar
+- jekyll-paginate-v2
+- jekyll-mentions
+- jekyll-gist
+- jekyll-commonmark-ghpages
+- jekyll-github-metadata
+- github-pages
+include:
+- _pages
+exclude:
+- Gemfile
+- Gemfile.lock
+
+# -----------------------------------------------------------------------------
+# Homepage feeds
+# -----------------------------------------------------------------------------
+collections:
+- news
+- projects
+news_limit: 5
+post_limit: 5
+
+# -----------------------------------------------------------------------------
+# Blog configuration
+# -----------------------------------------------------------------------------
+blog_name: research blog
+blog_description: notes from my research
+permalink: /blog/:year/:title.html
+paginate: nil # disable the deprecated pagination method
+pagination:
+  enabled: true
+  limit: 0
+  per_page: 4
+  sort_field: date
+  sort_reverse: true 
+  title: "page :num"
+  permalink: /blog/page/:num/
+text:
+  pagination:
+    newer: 'newer'
+    older: 'older'
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+github_username: nateyazdani
+twitter_username: nate_yazdani
+scholar_authorid: HDSnJXgAAAAJ # Google Scholar
+#disqus_shortname: nyazdani # to-do
+
+# -----------------------------------------------------------------------------
+# Jekyll-Scholar
+# -----------------------------------------------------------------------------
+scholar:
+  sort_by: year
+  order: descending
+  style: _data/acm-toplas.csl
+  repository: assets/pdf
+  bibliography_list_tag: 'ul'
+  bibliography_item_tag: 'li'
+  bibliography_template: "{{ reference | replace: 'Nathaniel Yazdani', '<b>Nathaniel Yazdani</b>' }} [<a href='{{ links.pdf }}'>PDF</a>]"
+  type_names:
+    article: "journal articles"
+    book: "books"
+    incollection: "book chapters"
+    inproceedings: "conference articles"
+    thesis: "research theses"
+    mastersthesis: "postgraduate theses"
+    phdthesis: "doctoral theses"
+    manual: "manuals"
+    techreport: "technical reports"
+    misc: "miscellany"
+    unpublished: "unpublished drafts"
+    type_aliases:
+      phdthesis: 'thesis'
+      mastersthesis: 'thesis'
+

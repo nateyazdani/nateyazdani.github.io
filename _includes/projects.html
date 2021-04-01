@@ -1,0 +1,11 @@
+<div class="projects">
+    <h2>current projects</h2>
+    {% for project in site.projects %}
+      <div class="project ">
+        <h3><span class="project-name">{{ project.title }}:</span><span class="project-title"> {{ project.description }}</span></h3>
+        <div class="project-description">
+          {{ project.content | markdownify }}
+        </div>
+      </div>
+    {% endfor %}
+</div>

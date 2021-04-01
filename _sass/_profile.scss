@@ -1,0 +1,72 @@
+.profile {
+    float: right !important;
+    margin: 1pt;
+    width: 9rem;
+    img {
+        box-shadow: 0 0 1pt $grey-color;
+        width: 9rem;
+    }
+}
+.address {
+    font-family: monospace;
+
+    p { margin: 0; }
+}
+
+.news {
+    border-top: 1px solid $grey-color-light;
+    margin-top: 30px;
+    padding-top: 20px;
+
+    h2 {
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+
+        .date { width: 19%; }
+        .announcement { width: 81%; }
+
+        tr { text-align: left; }
+        td {
+            padding: 6px 0;
+            vertical-align: top;
+            border: none;
+        }
+    }
+}
+
+.projects {
+    border-top: 1px solid $grey-color-light;
+    margin-top: 10pt;
+    padding-top: 10pt;
+
+    h2 {
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .project {
+        margin-left: 1rem;
+        .project-name {
+            font-size: 1.2rem;
+            font-weight: bolder;
+        }
+        .project-title {
+            font-size: 1rem;
+        }
+        p {
+            margin-left: 1rem;
+        }
+    }
+}
+
+.social {
+    border-top: 1px solid $grey-color-light;
+    margin-top: 50px;
+    padding-top: 20px;
+}
