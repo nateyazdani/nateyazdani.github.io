@@ -24,7 +24,7 @@ description: >
 footer_text: >
   Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.
 last_updated: March 2021
-url: nyazdani.com # i.e., hostname
+url: https://nyazdani.com # i.e., hostname
 baseurl: # i.e., path relative to hostname
 #theme: al-folio
 markdown: kramdown
