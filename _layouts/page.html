@@ -4,8 +4,17 @@ layout: default
 <div class="post">
 
   <header class="post-header">
+    {% if page.profile %}
+    <div class="profile">
+      <img src="{{ page.profile | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+    </div>
+    {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
-    <h5 class="post-description">{{ page.description | markdownify }}</h5>
+    <h5 class="post-description">
+      <div>
+      {{ page.description | markdownify }}
+      </div>
+    </h5>
   </header>
 
   <article class="post-content {{page.title}} clearfix">
