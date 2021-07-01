@@ -1,5 +1,9 @@
 ---
 layout: default
+permalink: /blog/
+title: research blog
+description: My thoughts about research
+navigation: blog
 ---
 
 <div class="header-bar">

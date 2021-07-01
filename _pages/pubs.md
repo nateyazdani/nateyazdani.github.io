@@ -1,8 +1,9 @@
 ---
 layout: page
 permalink: /pubs/
-title: publications
-description: Publications in reverse chronological order.
+title: research articles
+description: publications from my research
+navigation: publications
 years: [2021, 2019, 2018, 2017]
 ---
 
