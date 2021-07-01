@@ -1,6 +1,8 @@
 
 source 'https://rubygems.org'
 
+ruby '2.7.2'
+
 group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-paginate-v2'
@@ -13,10 +15,10 @@ group :jekyll_plugins do
 end
 
 group :html_pipeline_filters do
-    gem 'rinku', '~> 2.0'
-    gem 'commonmarker', '~> 0.17.13'
-    gem 'escape_utils', '~> 1.2'
-    gem 'rouge', '~> 3.26'
-    gem "webrick", "~> 1.7"
+    gem 'rinku'
+    gem 'commonmarker'
+    gem 'escape_utils'
+    gem 'rouge'
+    gem 'webrick'
 end
 
