@@ -3,9 +3,10 @@ layout: about
 permalink: /
 title: <strong>Nathaniel</strong> Yazdani
 description: |
+  [@nate\_yazdani](https://twitter.com/nate_yazdani)\\
   [me@nyazdani.com](mailto:me@nyazdani.com)\\
   [yazdani.n@northeastern.edu](mailto:yazdani.n@northeastern.edu)\\
-  [@nate\_yazdani](https://twitter.com/nate_yazdani)\\
+  [PhD student (institutional directory)](https://www.khoury.northeastern.edu/people/nathaniel-yazdani/)\\
   [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu)\\
   [Northeastern University](https://www.northeastern.edu/)
 profile: profile.jpeg
