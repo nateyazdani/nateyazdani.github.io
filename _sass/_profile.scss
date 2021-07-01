@@ -3,7 +3,8 @@
     margin: 1pt;
     width: 9rem;
     img {
-        box-shadow: 0 0 1pt $grey-color;
+        box-shadow: 0 0 2pt $grey-color;
+        border-radius: 50%;
         width: 9rem;
     }
 }
